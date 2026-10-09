@@ -1,0 +1,40 @@
+/* CONTROL — composição institucional, referência aprovada em 09/10/2026. */
+.c-container{width:min(1160px,calc(100% - 80px))}
+.c-header-inner{min-height:106px;gap:24px}
+.c-header .c-brand{width:200px}
+.c-header .c-brand img{width:200px;height:92px;object-fit:contain}
+.c-nav{gap:25px}
+.c-social{background:#fafafa;border:0}
+.c-hero{position:relative;isolation:isolate;background:#fff}
+.c-hero-grid{min-height:540px;padding-block:74px}
+.c-hero h1{font-size:clamp(44px,4.8vw,68px);letter-spacing:-.04em;line-height:1.12;max-width:990px}
+.c-hero-name{display:block;font-size:.56em;letter-spacing:.1em;margin-bottom:20px;font-weight:700}
+.c-hero-lead{font-size:19px;color:#454545;margin-block:28px 24px}
+.c-hero-graphic{position:absolute;inset:0 0 0 auto;width:49%;z-index:-1;pointer-events:none;background:url('assets/hero-lines.svg') center right/cover no-repeat;opacity:.65}
+.c-button{border-radius:28px;padding-inline:27px}
+.c-hero-foot{border-color:#dfdfdf;font-size:13px}
+.c-section{padding-block:96px}
+.c-about-grid{gap:85px;grid-template-columns:1.45fr 1fr}
+.c-about-grid h2{font-size:43px}
+.c-about-grid h2 .c-about-title{display:block;font-size:.7em;line-height:1.45;font-weight:600;letter-spacing:-.025em}
+.c-about-grid p:not(.c-eyebrow){line-height:1.9}
+.c-experience{background:#fafafa;border:0;border-left:4px solid var(--c-yellow);padding:38px 40px}
+.c-services-section{background:#fafafa;border:0}
+.c-section-heading h2{font-size:clamp(32px,3.4vw,43px)}
+.c-service-slot{height:258px;min-height:258px;padding:0;border-radius:8px;background:#fff;border:1px solid #e2e2e2;box-shadow:0 5px 20px #00000004}
+.c-service-slot::before{content:'';display:block;width:42px;height:3px;background:var(--c-yellow);margin:30px auto 0}
+.c-services-grid{gap:26px}
+.c-team-photo{border-radius:8px}
+.c-portfolio-section{background:#fafafa;border:0}
+.c-photo-slot{background:#fff}
+.c-contact-grid{gap:70px}
+.c-contact-form input,.c-contact-form textarea{background:#fafafa;border:1px solid #dedede;border-radius:5px}
+.c-contact-form .c-button{width:auto;min-width:220px}
+.c-footer{background:#fafafa}
+.c-footer-brand .c-brand{width:200px;margin-top:0}
+.c-footer-brand .c-brand img{mix-blend-mode:multiply}
+@media(min-width:1500px){.c-container{max-width:1200px}.c-hero-grid{min-height:580px}}
+@media(max-width:1100px){.c-container{width:calc(100% - 48px)}.c-header .c-brand,.c-header .c-brand img{width:162px}.c-header .c-brand img{height:82px}.c-nav{gap:17px}.c-header-inner{gap:17px}.c-about-grid{gap:40px}.c-contact-grid{gap:38px}}
+@media(max-width:900px){.c-header-inner{min-height:90px}.c-nav{top:90px}.c-menu-toggle{top:25px}.c-header .c-brand,.c-header .c-brand img{width:170px}.c-hero-grid{min-height:490px}.c-hero h1{font-size:52px}.c-about-grid{gap:30px}.c-experience{padding:28px}.c-service-slot{height:230px;min-height:230px}.c-section{padding-block:76px}}
+@media(max-width:680px){.c-container{width:calc(100% - 40px)}.c-header .c-brand,.c-header .c-brand img{width:146px}.c-header .c-brand img{height:74px}.c-header-inner{min-height:82px}.c-nav{top:82px}.c-menu-toggle{top:21px}.c-hero-grid{min-height:440px;padding-block:58px 48px}.c-hero h1{font-size:clamp(39px,8.7vw,53px)}.c-hero-name{margin-bottom:18px}.c-hero-lead{font-size:17px;max-width:340px;margin-block:22px}.c-hero-graphic{width:100%;opacity:.3;left:0;background-position:center}.c-hero-foot{font-size:12px}.c-about-grid{grid-template-columns:1fr}.c-about-grid h2{font-size:37px}.c-section{padding-block:62px}.c-services-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.c-service-slot{height:206px;min-height:206px}.c-footer .c-brand{width:175px}.c-contact-form .c-button{width:100%}}
+@media(max-width:390px){.c-container{width:calc(100% - 32px)}.c-header .c-brand,.c-header .c-brand img{width:124px}.c-header-inner{gap:5px}.c-hero h1{font-size:39px}.c-hero-name{font-size:.55em}.c-services-grid{grid-template-columns:1fr}.c-service-slot{height:244px;min-height:244px}.c-footer-grid{grid-template-columns:1fr}}
