@@ -38,3 +38,29 @@
 @media(max-width:900px){.c-header-inner{min-height:90px}.c-nav{top:90px}.c-menu-toggle{top:25px}.c-header .c-brand,.c-header .c-brand img{width:170px}.c-hero-grid{min-height:490px}.c-hero h1{font-size:52px}.c-about-grid{gap:30px}.c-experience{padding:28px}.c-service-slot{height:230px;min-height:230px}.c-section{padding-block:76px}}
 @media(max-width:680px){.c-container{width:calc(100% - 40px)}.c-header .c-brand,.c-header .c-brand img{width:146px}.c-header .c-brand img{height:74px}.c-header-inner{min-height:82px}.c-nav{top:82px}.c-menu-toggle{top:21px}.c-hero-grid{min-height:440px;padding-block:58px 48px}.c-hero h1{font-size:clamp(39px,8.7vw,53px)}.c-hero-name{margin-bottom:18px}.c-hero-lead{font-size:17px;max-width:340px;margin-block:22px}.c-hero-graphic{width:100%;opacity:.3;left:0;background-position:center}.c-hero-foot{font-size:12px}.c-about-grid{grid-template-columns:1fr}.c-about-grid h2{font-size:37px}.c-section{padding-block:62px}.c-services-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.c-service-slot{height:206px;min-height:206px}.c-footer .c-brand{width:175px}.c-contact-form .c-button{width:100%}}
 @media(max-width:390px){.c-container{width:calc(100% - 32px)}.c-header .c-brand,.c-header .c-brand img{width:124px}.c-header-inner{gap:5px}.c-hero h1{font-size:39px}.c-hero-name{font-size:.55em}.c-services-grid{grid-template-columns:1fr}.c-service-slot{height:244px;min-height:244px}.c-footer-grid{grid-template-columns:1fr}}
+
+/* Revisão minimalista — lema: Qualidade e compromisso. */
+.c-hero-grid{min-height:480px;padding-block:72px}
+.c-hero-lead{color:var(--c-black);font-weight:500;font-size:20px;margin-block:24px}
+.c-button{border-radius:3px}
+.c-social{background:transparent}
+.c-section{padding-block:80px}
+.c-about-grid p:not(.c-eyebrow){line-height:1.8}
+.c-experience{background:#fff;border-left:1px solid var(--c-line);padding:24px 0 24px 40px}
+.c-experience>strong{font-size:96px}
+.c-services-section,.c-portfolio-section{background:#fff;border-block:1px solid var(--c-line)}
+.c-service-slot{height:205px;min-height:205px;border:1px solid var(--c-line);border-radius:2px;box-shadow:none;padding:0}
+.c-service-slot::before{display:none}
+.c-services-grid{gap:24px}
+.c-section-heading{text-align:left}
+.c-section-heading .c-eyebrow{justify-content:flex-start}
+.c-section-heading .c-heading-rule{margin-inline:0}
+.c-heading-rule{height:3px;width:42px}
+.c-team-photo,.c-photo-slot,.c-map{border-radius:2px;background:#fafafa}
+.c-contact-form input,.c-contact-form textarea{background:#fff;border-radius:2px}
+.c-footer{background:#fff;border-top:1px solid var(--c-line)}
+.c-footer-brand .c-brand img{mix-blend-mode:normal}
+@media(min-width:1500px){.c-hero-grid{min-height:520px}}
+@media(max-width:900px){.c-section{padding-block:64px}.c-hero-grid{min-height:440px}.c-experience{padding:20px 0 20px 28px}.c-experience>strong{font-size:82px}}
+@media(max-width:680px){.c-section{padding-block:56px}.c-hero-grid{min-height:390px;padding-block:52px}.c-hero-lead{font-size:18px}.c-experience{border-left:0;border-top:1px solid var(--c-line);padding:28px 0 0}.c-service-slot{height:170px;min-height:170px}.c-services-grid{gap:16px}}
+@media(max-width:390px){.c-service-slot{height:195px;min-height:195px}}
