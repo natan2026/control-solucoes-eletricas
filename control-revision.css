@@ -64,3 +64,51 @@
 @media(max-width:900px){.c-section{padding-block:64px}.c-hero-grid{min-height:440px}.c-experience{padding:20px 0 20px 28px}.c-experience>strong{font-size:82px}}
 @media(max-width:680px){.c-section{padding-block:56px}.c-hero-grid{min-height:390px;padding-block:52px}.c-hero-lead{font-size:18px}.c-experience{border-left:0;border-top:1px solid var(--c-line);padding:28px 0 0}.c-service-slot{height:170px;min-height:170px}.c-services-grid{gap:16px}}
 @media(max-width:390px){.c-service-slot{height:195px;min-height:195px}}
+
+/* Fotos enviadas para as áreas 03 e 07. */
+.c-service-card{position:relative;overflow:hidden;background:#171717}
+.c-service-card>img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;transition:transform .35s ease}
+.c-service-card-03>img{object-position:center 43%}
+.c-service-card-07>img{object-position:center 70%}
+.c-service-card:hover>img,.c-service-card:focus-within>img{transform:scale(1.035)}
+.c-service-card-title{position:absolute;inset:auto 0 0;padding:42px 20px 18px;background:linear-gradient(transparent,rgba(0,0,0,.82));color:#fff}
+.c-service-card-title h3{margin:0;font-size:clamp(17px,1.6vw,21px);line-height:1.25;letter-spacing:-.02em;font-weight:700}
+.c-service-card-title h3::before{content:'';display:block;width:30px;height:3px;background:var(--c-yellow);margin-bottom:10px}
+@media(max-width:680px){.c-service-card-title{padding:34px 14px 14px}.c-service-card-title h3{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.c-service-card>img{transition:none}}
+
+.c-service-card-11>img{object-position:center 58%}
+
+.c-service-card-01>img{object-position:center 55%}
+.c-service-card-11>img{object-position:center 58%}
+.c-service-card-12>img{object-position:center 50%}
+.c-service-card-14>img{object-position:center 50%}
+
+.c-service-card-01>img{object-position:center 55%}
+.c-service-card-11>img{object-position:center 58%}
+.c-service-card-12>img{object-position:center 50%}
+.c-service-card-14>img{object-position:center 50%}
+/* Fotos enviadas para as áreas de atuação selecionadas. */
+.c-service-card{position:relative;overflow:hidden;background:#171717}
+.c-service-card>img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;transition:transform .35s ease}
+.c-service-card-01>img{object-position:center 55%}
+.c-service-card-02>img{object-position:center 48%}
+.c-service-card-03>img{object-position:center 43%}
+.c-service-card-04>img{object-position:center 48%}
+.c-service-card-05>img{object-position:center 52%}
+.c-service-card-06>img{object-position:center 50%}
+.c-service-card-07>img{object-position:center 70%}
+.c-service-card-08>img{object-position:center 52%}
+.c-service-card-09>img{object-position:center 50%}
+.c-service-card-10>img{object-position:center 50%}
+.c-service-card-11>img{object-position:center 58%}
+.c-service-card-12>img{object-position:center 50%}
+.c-service-card-13>img{object-position:center 50%}
+.c-service-card-14>img{object-position:center 50%}
+.c-service-card-15>img{object-position:center 55%}
+.c-service-card:hover>img,.c-service-card:focus-within>img{transform:scale(1.035)}
+.c-service-card-title{position:absolute;inset:auto 0 0;padding:42px 20px 18px;background:linear-gradient(transparent,rgba(0,0,0,.82));color:#fff}
+.c-service-card-title h3{margin:0;font-size:clamp(17px,1.6vw,21px);line-height:1.25;letter-spacing:-.02em;font-weight:700}
+.c-service-card-title h3::before{content:'';display:block;width:30px;height:3px;background:var(--c-yellow);margin-bottom:10px}
+@media(max-width:680px){.c-service-card-title{padding:34px 14px 14px}.c-service-card-title h3{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.c-service-card>img{transition:none}}
