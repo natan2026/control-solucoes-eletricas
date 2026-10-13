@@ -114,3 +114,5 @@
 @media(prefers-reduced-motion:reduce){.c-service-card>img{transition:none}}
 
 .control-layout .c-about-grid{grid-template-columns:minmax(0,1fr);max-width:920px;margin-inline:auto}
+
+.control-layout .c-team-photo img{width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block}
