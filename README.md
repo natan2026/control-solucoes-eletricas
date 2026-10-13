@@ -5,7 +5,7 @@ Site institucional da CONTROL Soluções Elétricas, com atendimento no Vale do 
 ## Conteúdo
 
 - Apresentação da empresa e da equipe.
-- Quinze espaços reservados para as áreas de atuação.
+- Dez áreas de atuação publicadas, com espaço para expansão futura.
 - Galeria preparada para fotografias reais dos serviços.
 - Contato pelo WhatsApp.
 
