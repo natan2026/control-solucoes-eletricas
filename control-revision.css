@@ -112,3 +112,5 @@
 .c-service-card-title h3::before{content:'';display:block;width:30px;height:3px;background:var(--c-yellow);margin-bottom:10px}
 @media(max-width:680px){.c-service-card-title{padding:34px 14px 14px}.c-service-card-title h3{font-size:17px}}
 @media(prefers-reduced-motion:reduce){.c-service-card>img{transition:none}}
+
+.control-layout .c-about-grid{grid-template-columns:minmax(0,1fr);max-width:920px;margin-inline:auto}
